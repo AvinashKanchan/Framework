@@ -8,8 +8,7 @@
 	</groups>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="practice.Demo" />
-			<class name="practice.Sample" />
+			<class name="com.crm.vtiger.contact.CreateContactTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
