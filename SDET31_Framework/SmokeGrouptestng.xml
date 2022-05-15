@@ -8,8 +8,14 @@
 	</groups>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="practice.Demo" />
-			<class name="practice.Sample" />
+			<class name="com.crm.vtiger.campaign.CreateCampaignSelectProductTest" />
+			<class name="com.crm.vtiger.product.CreateProductTest" />
+			<class name="com.crm.vtiger.organization.CreateOrganizationTest" />
+			<class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesUpwardSymbolTest" />
+			<class name="com.crm.vtiger.contact.CreateContactSelectOrgTest" />
+			<class name="com.crm.vtiger.contact.CreateContactTest" />
+			<class name="com.crm.vtiger.organization.CreateOrganizationWithIndustryTypeTest" />
+			<class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesDownwardSymbolTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
