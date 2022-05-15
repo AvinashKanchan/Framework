@@ -16,6 +16,7 @@
 			<class name="com.crm.vtiger.contact.CreateContactTest" />
 			<class name="com.crm.vtiger.organization.CreateOrganizationWithIndustryTypeTest" />
 			<class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesDownwardSymbolTest" />
+			<class name="com.crm.vtiger.contact.CreateContactTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
