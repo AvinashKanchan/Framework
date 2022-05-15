@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test1">
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.crm.vtiger.campaign.CreateCampaignSelectProductTest"/>
+      <class name="com.crm.vtiger.product.CreateProductTest"/>
+      <class name="com.crm.vtiger.organization.CreateOrganizationTest"/>
+      <class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesUpwardSymbolTest"/>
+      <class name="com.crm.vtiger.contact.CreateContactSelectOrgTest"/>
+      <class name="com.crm.vtiger.contact.CreateContactTest"/>
+      <class name="com.crm.vtiger.organization.CreateOrganizationWithIndustryTypeTest"/>
+      <class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesDownwardSymbolTest"/>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Test2">
+	<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.crm.vtiger.campaign.CreateCampaignSelectProductTest"/>
+      <class name="com.crm.vtiger.product.CreateProductTest"/>
+      <class name="com.crm.vtiger.organization.CreateOrganizationTest"/>
+      <class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesUpwardSymbolTest"/>
+      <class name="com.crm.vtiger.contact.CreateContactSelectOrgTest"/>
+      <class name="com.crm.vtiger.contact.CreateContactTest"/>
+      <class name="com.crm.vtiger.organization.CreateOrganizationWithIndustryTypeTest"/>
+      <class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesDownwardSymbolTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+	<parameter name="browser" value="msedge"></parameter>
+    <classes>
+      <class name="com.crm.vtiger.campaign.CreateCampaignSelectProductTest"/>
+      <class name="com.crm.vtiger.product.CreateProductTest"/>
+      <class name="com.crm.vtiger.organization.CreateOrganizationTest"/>
+      <class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesUpwardSymbolTest"/>
+      <class name="com.crm.vtiger.contact.CreateContactSelectOrgTest"/>
+      <class name="com.crm.vtiger.contact.CreateContactTest"/>
+      <class name="com.crm.vtiger.organization.CreateOrganizationWithIndustryTypeTest"/>
+      <class name="com.crm.vtiger.purchaseorder.CreatePurchaseOrderWithItemServicesDownwardSymbolTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
