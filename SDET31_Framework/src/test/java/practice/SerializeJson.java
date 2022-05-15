@@ -16,7 +16,7 @@ public class SerializeJson {
 		RMGYantraPojo rmg=new RMGYantraPojo("Punit", "Sony", "Completed", 10);
 		
 		ObjectMapper mapper=new ObjectMapper();
-		mapper.writeValue(new File("./rmgyantra.json"), rmg);
+		mapper.writerWithDefaultPrettyPrinter().writeValue(new File("./rmgyantra.json"), rmg);
 		System.out.println("object is serialized");
 	}
 

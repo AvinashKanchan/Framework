@@ -1,1 +1,6 @@
-{"createdBy":"Punit","projectName":"Sony","status":"Completed","teamSize":10}
+{
+  "createdBy" : "Punit",
+  "projectName" : "Sony",
+  "status" : "Completed",
+  "teamSize" : 10
+}
